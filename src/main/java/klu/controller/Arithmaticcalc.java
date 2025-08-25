@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(origins = "http://localhost:9090")
 public class Arithmaticcalc {
 	@GetMapping("add/{A}/{B}")
-	public String add(@PathVariable("A") int a,@PathVariable("B")int b)
+	public String add(@PathVariable("A") int a,@PathVariable("B") int b)
 	{
 		return ""+(a+b);
 	}
